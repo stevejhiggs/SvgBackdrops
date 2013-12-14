@@ -1,0 +1,21 @@
+html {
+	height:100%;
+	background-color: #120023;
+	background: url(background.png), url(owls.svg), -moz-radial-gradient(center, ellipse cover, rgba(190,190,190,0.9) 0%, rgba(20,20,20,0.5) 100%), #120023;
+	background: url(background.png), url(owls.svg), -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(190,190,190,0.9)), color-stop(100%,rgba(20,20,20,0.5))), #120023;
+	background: url(background.png), url(owls.svg), -webkit-radial-gradient(center, ellipse cover, rgba(190,190,190,0.9) 0%,rgba(20,20,20,0.5) 100%), #120023;
+	background: url(background.png), url(owls.svg), -o-radial-gradient(center, ellipse cover, rgba(190,190,190,0.9) 0%,rgba(20,20,20,0.5) 100%), #120023;
+	background: url(background.png), url(owls.svg), -ms-radial-gradient(center, ellipse cover, rgba(190,190,190,0.9) 0%,rgba(20,20,20,0.5) 100%), #120023;
+	background: url(background.png), url(owls.svg), radial-gradient(ellipse at center, rgba(190,190,190,0.9) 0%,rgba(20,20,20,0.5) 100%), #120023;
+	background-size: auto, 75% auto, auto;
+	background-repeat: repeat, no-repeat, repeat;	
+	transition: all 1s ease-in;
+}
+
+body {
+		background-color:transparent;
+}
+
+html:hover {
+	background-color: #72D9FF;
+}
